@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    body {
+        @apply font-Montserrat 
+    }
+    
+}
+
+.header .toggleMenu{
+    transform: scaleX(-1);
+}
+
+.header .toggleMenu span {
+    height: 0.2rem;
+    width: 2rem; 
+    @apply bg-Gray block mb-1 
+}
+
+.header .toggleMenu span:nth-child(2){
+    width: 1.5rem;
+    
+}
+
+.header .toggleMenu span:nth-child(3){
+    width: 0.8rem;
+}
+
+.MobileNav{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.MobileNav.active{
+    max-height: 500px;
+}
+
+
