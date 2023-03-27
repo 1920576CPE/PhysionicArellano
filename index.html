@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body class="bg-white">
+    
+    <header class="header py-5">
+        <div class="container">
+            <div class="header__wrapper flex items-center justify-between">
+                <div class="headerLogo">
+                    <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+                </div>
+                    <div class="headerNav hidden md:block">
+                        <ul class="flex gap-5">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="getaQuote hidden md:block">
+                        <a class="bg-primary p-3 rounded-md text-white font-bold" href="#"> Get Quote Now</a>
+                    </div>
+
+                    <div class="flex gap-5 items-center md:hidden">
+                        <div class="searchAndCart flex gap-6 md:hidden">
+                            <i class="fa-solid fa-magnifying-glass text-Gray text-2xl"></i>
+                            <i class="fa-solid fa-cart-shopping  text-Gray text-2xl"></i>
+                        </div>
+                        <div class="toggleMenu md:hidden cursor-pointer">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="MobileNav md:hidden transition-all duration-200">
+                <ul class="text-center text-[1.5rem] text-Gray font-semibold py-5">
+                    <li><a class = "block p-3" href="#">Home</a></li>
+                    <li><a  class = "block p-3" href="#">Product</a></li>
+                    <li><a class = "block p-3" href="#">Pricing</a></li>
+                    <li><a class = "block p-3" href="#">Contact</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </header>
+
+    <section class="banner bg-blend-multiply bg-Gray  bg-cover bg-no-repeat bg-hero py-10 text-center">
+      <div class="container">
+
+        <div class="bannerWrapper lg:flex ">
+            <div>
+                <h1 class="text-huge text-white font-semibold mb-6 md:mt-[5rem]">Meet the Best <br> Hospital</h1>
+                <p class="text-white mb-6 w-[70%] mx-auto">We know how large objects will act, but things on a small scale.</p>
+                <a class="bg-primary mb-6 inline-block px-5 py-2 rounded-full text-white font-semibold" href="#">Get Quote Now</a> <br>
+                <a class="bg-transparent border border-white inline-block px-5 py-2 rounded-full text-white font-semibold" href="#">Learn More</a> 
+            </div>
+
+            <div class="bannerForm text-left bg-white p-10 rounded-lg w-[350px] mx-auto my-10">
+                <h3 class="text-center">Book Appointment</h3>
+                <form action="">
+
+                    <div class="inputGroup">
+                        <label class="" for="">Name</label> <br>
+                        <input class="p-3 w-full bg-lightGray border border-gray-300" type="text" placeholder="Fullname">
+                    </div>
+                    <div class="inputGroup">
+                        <label class="" for="">Email</label> <br>
+                        <input class="p-3 w-full bg-lightGray border border-gray-300" type="email" placeholder="example@gmai.com">
+                    </div>
+                    <div class="inputGroup">
+                        <label class="" for="">Department</label> <br>
+                        <input class="p-3 w-full bg-lightGray border border-gray-300" type="text" placeholder="Please Select">
+                    </div>
+                    <div class="inputGroup mb-6">
+                        <label class="" for="">Time</label> <br>
+                        <input class="p-3 w-full bg-lightGray border border-gray-300" type="text" placeholder="4.00 Available">
+                    </div>
+                   
+                </form>
+                <div class="text-center">
+                    <a class="bg-primary mb-6 px-5 py-2 text-white font-semibold inline-block" href="#">Book Appoinment</a>
+                </div>
+            </div>
+
+        </div>
+            
+        
+
+      </div>
+
+
+    </section>
+
+    <section class="about text-center py-10">
+        <div class="container">
+            <h2 class="text-secondary font-bold text-[2rem] w-[50%] md:w-[100%] mx-auto mb-3">Leading Medicine</h2>
+            <p class="md:w-[50%] mx-auto mb-[2rem]">Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics </p>
+            <div class="block md:grid grid-cols-3 gap-[1rem]">
+                <div class="cards p-[2px] mb-[3rem] bg-[#e0ecfe] rounded-md">
+                        <div class="card title flex gap-5 justify-center items-center py-[4rem] ">
+                            <div>
+                                <span class="fa-stack fa-lg ">
+                                    <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                    <i class="fa-solid fa-square-h fa-stack-1x  text-primary"></i>
+                                </span>
+                            
+                            </div>
+                        
+                            <h2 class="font-bold">Emergency Case</h2>
+                            
+                        </div>
+                        <div class="card content bg-white text-left p-[3rem] rounded-md">
+                            <p class="mb-2 text-Gray font-semibold">
+                                -  The best products start with Figma
+                            </p>
+                            <p class="mb-2 text-Gray font-semibold">
+                                - Design with real data
+                            </p>
+                            <p class="mb-2 text-Gray font-semibold">
+                                - Fastest way to organize
+                            </p>
+                            <p class="mb-2 text-Gray font-semibold">
+                                - Work at the speed of thought.
+                            </p>
+                            <a class = "text-primary font-semibold" href="#">Learn More</a>
+                        </div>
+
+                        
+                </div>
+                <div class="cards p-[2px] mb-[3rem] bg-[#e0ecfe] rounded-md">
+                    <div class="card title flex gap-5 justify-center items-center py-[4rem] ">
+                        <div>
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                <i class="fa-solid fa-square-h fa-stack-1x text-primary"></i>
+                            </span>
+                        
+                        </div>
+                    
+                        <h2 class="font-bold">Cancer Care</h2>
+                        
+                    </div>
+                    <div class="card content bg-white text-left p-[3rem] rounded-md">
+                        <p class="mb-2 text-Gray font-semibold">
+                            -  The best products start with Figma
+                        </p>
+                        <p class="mb-2 text-Gray font-semibold">
+                            - Design with real data
+                        </p>
+                        <p class="mb-2 text-Gray font-semibold">
+                            - Fastest way to organize
+                        </p>
+                        <p class="mb-2 text-Gray font-semibold">
+                            - Work at the speed of thought.
+                        </p>
+                        <a class = "text-primary font-semibold" href="#">Learn More</a>
+                    </div>
+
+                    
+                </div>
+                <div class="cards p-[2px] mb-[3rem] bg-[#e0ecfe] rounded-md">
+                    <div class="card title flex gap-5 justify-center items-center py-[4rem] ">
+                        <div>
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                <i class="fa-solid fa-square-h fa-stack-1x text-primary"></i>
+                            </span>
+                        
+                        </div>
+                    
+                        <h2 class="font-bold">Health Queries</h2>
+                        
+                    </div>
+                    <div class="card content bg-white text-left p-[3rem] rounded-md">
+                        <p class="mb-2 text-Gray font-semibold">
+                            -  The best products start with Figma
+                        </p>
+                        <p class="mb-2 text-Gray font-semibold">
+                            - Design with real data
+                        </p>
+                        <p class="mb-2 text-Gray font-semibold">
+                            - Fastest way to organize
+                        </p>
+                        <p class="mb-2 text-Gray font-semibold">
+                            - Work at the speed of thought.
+                        </p>
+                        <a class = "text-primary font-semibold" href="#">Learn More</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Review bg-lightGray py-[2rem]">
+        <div class="container">
+            <h2 class="text-center p-[3rem] text-secondary font-bold text-[2rem] mb-3">What Clients Say</h2>
+            <div class="ClientCardWrapper block md:grid grid-cols-3 gap-[2rem]">
+                <div class="clientCard bg-white rounded-lg p-[4rem] mb-[2rem] border border-Gray">
+                    <ul class="flex gap-4 mb-6">
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-regular fa-star" style="color: #ebff52;"></i></li>
+                    </ul>
+                    <p class="mb-6">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.
+                    </p>
+                    <img src="./img/dr.C.png" alt="">
+                </div>
+                <div class="clientCard bg-white rounded-lg p-[4rem] mb-[2rem] border border-Gray">
+                    <ul class="flex gap-4 mb-6">
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-regular fa-star" style="color: #ebff52;"></i></li>
+                    </ul>
+                    <p class="mb-6">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.
+                    </p>
+                    <img src="./img/dr.A.png" alt="">
+                </div>
+                <div class="clientCard bg-white rounded-lg p-[4rem] mb-[2rem] border border-Gray">
+                    <ul class="flex gap-4 mb-6">
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #ebff52;"></i></li>
+                        <li><i class="fa-regular fa-star" style="color: #ebff52;"></i></li>
+                    </ul>
+                    <p class="mb-6">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.
+                    </p>
+                    <img src="./img/dr.B.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="FAQ py-[3rem] bg-lightGray">
+        <div class="container">
+            <h2 class="text-secondary font-bold text-[2rem] text-center mb-3">FAQ</h2>
+            <p class="md:w-[50%] mx-auto mb-[2rem] text-Gray text-center">
+                Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics </p>
+            <div class="block md:grid grid-cols-3 gap-[1rem]">
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                   <div class="flex gap-[1rem] items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                    <p class="text-secondary font-bold" >the quick fox jumps over 
+                        the lazy dog</p>
+                   </div>
+                   <p class="text-center text-Gray">
+                    things on a very small scale...
+                   </p>
+
+                </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                   <div class="flex gap-[1rem] items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                    <p class="text-secondary font-bold" >the quick fox jumps over 
+                        the lazy dog</p>
+                   </div>
+                   <p class="text-center text-Gray">
+                    things on a very small scale...
+                   </p>
+
+                </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                   <div class="flex gap-[1rem] items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                    <p class="text-secondary font-bold" >the quick fox jumps over 
+                        the lazy dog</p>
+                   </div>
+                   <p class="text-center text-Gray">
+                    things on a very small scale...
+                   </p>
+
+                </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                   <div class="flex gap-[1rem] items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                    <p class="text-secondary font-bold" >the quick fox jumps over 
+                        the lazy dog</p>
+                   </div>
+                   <p class="text-center text-Gray">
+                    things on a very small scale...
+                   </p>
+
+                </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                   <div class="flex gap-[1rem] items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                    <p class="text-secondary font-bold" >the quick fox jumps over 
+                        the lazy dog</p>
+                   </div>
+                   <p class="text-center text-Gray">
+                    things on a very small scale...
+                   </p>
+
+                </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                   <div class="flex gap-[1rem] items-center justify-center">
+                    <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                    <p class="text-secondary font-bold" >the quick fox jumps over 
+                        the lazy dog</p>
+                   </div>
+                   <p class="text-center text-Gray">
+                    things on a very small scale...
+                   </p>
+
+                </div>
+               
+            </div>
+            <div class="hidden md:grid grid-cols-3 gap-[1rem]">
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                    <div class="flex gap-[1rem] items-center justify-center">
+                     <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                     <p class="text-secondary font-bold" >the quick fox jumps over 
+                         the lazy dog</p>
+                    </div>
+                    <p class="text-center text-Gray">
+                     things on a very small scale...
+                    </p>
+ 
+                 </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                    <div class="flex gap-[1rem] items-center justify-center">
+                     <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                     <p class="text-secondary font-bold" >the quick fox jumps over 
+                         the lazy dog</p>
+                    </div>
+                    <p class="text-center text-Gray">
+                     things on a very small scale...
+                    </p>
+ 
+                 </div>
+                <div class="bg-white p-[3rem] mb-3 ">
+
+                    <div class="flex gap-[1rem] items-center justify-center">
+                     <i class="fa-solid fa-chevron-right text-2xl text-primary"></i>
+                     <p class="text-secondary font-bold" >the quick fox jumps over 
+                         the lazy dog</p>
+                    </div>
+                    <p class="text-center text-Gray">
+                     things on a very small scale...
+                    </p>
+ 
+                 </div>
+            </div>
+
+        </div>
+
+
+    
+    </section>
+
+    <secion class="Pricing py-[3rem] bg-lightGray">
+        <div class="container">
+            <div class="p-[1rem]">
+                <h2 class="text-secondary font-semibold mb-3 text-[3rem] text-center">Pricing</h2>
+                <p class="text-center text-Gray font-semibold ">Problems trying to resolve 
+                the conflict between the two major 
+                realms of Classical physics: 
+                Newtonian mechanics </p>
+            </div>
+            <div>
+                <h3>FREE</h3>
+                <p>Organize across all apps by hand</p>
+                <div>
+                    <p>0</p>
+                    <div>
+                        <p>$</p>
+                        <p>Per Month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secion>
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
+    <script type="module">
+        var slider = tns({
+          container: '.my-slider',
+          items: 1,
+          slideBy: 'page',
+          autoplay: false,
+          controlsText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+        });
+    </script>
+
+    <script type="module">
+        var slider = tns({
+        container: '.sliderReq',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        mouseDrag: true,
+        controls: false,
+        loop: false,
+        responsive: {
+            
+        640: {
+            edgePadding: 20,
+            gutter: 20,
+            items: 1.3
+        },
+        700: {
+            gutter: 30,
+            items: 3
+        },
+        900: {
+            items: 4
+        }
+        }
+        });
+    </script>
+
+    <script>
+
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const MobileNav = document.querySelector('.MobileNav');
+
+        toggleMenu.addEventListener('click',()=>{
+            MobileNav.classList.toggle('active');
+        })
+
+    </script>
+
+</body>
+</html>
