@@ -39,4 +39,16 @@
     max-height: 500px;
 }
 
+.checkIcon i{
+    text-align: center;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    background: #72c276;
+    border: 1px solid #72c276 ;
+    border-radius: 100%;
+}
+
+
+
 
