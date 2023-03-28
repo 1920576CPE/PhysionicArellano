@@ -549,6 +549,70 @@ body {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.top-\[60\%\] {
+  top: 60%;
+}
+
+.top-\[70\%\] {
+  top: 70%;
+}
+
+.top-0\.5 {
+  top: 0.125rem;
+}
+
+.right-\[20px\] {
+  right: 20px;
+}
+
+.top-\[25\%\] {
+  top: 25%;
+}
+
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.top-\[33\%\] {
+  top: 33%;
+}
+
+.right-\[0\] {
+  right: 0;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -561,6 +625,10 @@ body {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
 }
 
 .mb-3 {
@@ -591,8 +659,16 @@ body {
   margin-top: 1.25rem;
 }
 
-.mb-2\.5 {
-  margin-bottom: 0.625rem;
+.mb-\[1rem\] {
+  margin-bottom: 1rem;
+}
+
+.mb-\[0\.5rem\] {
+  margin-bottom: 0.5rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .block {
@@ -611,8 +687,8 @@ body {
   display: none;
 }
 
-.h-\[795px\] {
-  height: 795px;
+.h-\[705px\] {
+  height: 705px;
 }
 
 .w-\[350px\] {
@@ -631,12 +707,58 @@ body {
   width: 100%;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-0 {
+  --tw-translate-y: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .items-center {
@@ -789,9 +911,26 @@ body {
   padding: 4rem;
 }
 
+.p-\[2rem\] {
+  padding: 2rem;
+}
+
+.p-\[0\.5rem\] {
+  padding: 0.5rem;
+}
+
+.p-\[0\.8rem\] {
+  padding: 0.8rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .px-\[4rem\] {
@@ -819,6 +958,11 @@ body {
   padding-bottom: 1.25rem;
 }
 
+.py-\[0\.9375rem\] {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+
 .py-\[2rem\] {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -834,19 +978,9 @@ body {
   padding-bottom: 4rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.py-\[0\.9375rem\] {
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
+.py-\[1rem\] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-left {
@@ -866,6 +1000,10 @@ body {
   font-size: 1.5rem;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
 .text-\[2rem\] {
   font-size: 2rem;
 }
@@ -874,16 +1012,21 @@ body {
   font-size: 3rem;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
 .text-huge {
   font-size: clamp(2rem, 6vw, 4rem);
 }
 
-.text-\[24px\] {
-  font-size: 24px;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
@@ -892,6 +1035,14 @@ body {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-Gray {
@@ -968,12 +1119,6 @@ body {
   border-radius: 100%;
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:mt-\[5rem\] {
     margin-top: 5rem;
@@ -999,20 +1144,12 @@ body {
     height: 705px;
   }
 
-  .md\:h-\[795px\] {
-    height: 795px;
-  }
-
   .md\:w-\[100\%\] {
     width: 100%;
   }
 
   .md\:w-\[50\%\] {
     width: 50%;
-  }
-
-  .md\:w-\[327px\] {
-    width: 327px;
   }
 }
 
