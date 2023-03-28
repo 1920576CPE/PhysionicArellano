@@ -49,6 +49,16 @@
     border-radius: 100%;
 }
 
+.checkIcon2 i{
+    text-align: center;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    background: gray;
+    border: 1px solid gray ;
+    border-radius: 100%;
+}
+
 
 
 
