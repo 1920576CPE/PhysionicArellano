@@ -785,6 +785,10 @@ body {
   background-image: url('../dist/img/hero-cover.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/github\.com\/1920576CPE\/PhysionicArellano\/blob\/main\/dist\/img\/hero-cover\.jpg\?raw\=true\'\)\] {
+  background-image: url('https://github.com/1920576CPE/PhysionicArellano/blob/main/dist/img/hero-cover.jpg?raw=true');
+}
+
 .bg-cover {
   background-size: cover;
 }
