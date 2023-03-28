@@ -782,7 +782,7 @@ body {
 }
 
 .bg-hero {
-  background-image: url('../dist/img/hero-cover.jpg');
+  background-image: url('./img/hero-cover.jpg');
 }
 
 .bg-cover {
